@@ -56,7 +56,6 @@ const Cell = styled.div`
   background-image: url(${(props) => Data[props.value][0]});
   background-size: cover;
   border: 1px solid black;
-  font-size: 40px;
   background-color: gray;
 `
 const SpinButton = styled.button`
